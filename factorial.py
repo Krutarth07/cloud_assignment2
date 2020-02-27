@@ -12,7 +12,7 @@ with open("Input.txt",encoding='utf8',newline='') as obj:
       factorial = 1
 
       if num < 0:
-         print("Sorry, factorial does not exist for negative numbers")
+         print("Incorrect input")
       elif num == 0:
          print("The factorial of 0 is 1")
       else:
