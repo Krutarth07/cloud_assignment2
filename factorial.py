@@ -4,7 +4,7 @@ import re
 import string
 from datetime import datetime
 import time
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 with open("Input.txt",encoding='utf8',newline='') as obj:
    read = csv.reader(obj)
@@ -37,5 +37,5 @@ with open("Input.txt",encoding='utf8',newline='') as obj:
       ans+="Start: "+str(start)+", End: "+str(end)+", Duration: "+str((end-start))+", N: "+str(num)+"\nOutput: "+msg+"\n\n"
 print(ans)
 
-plt.plot(n,t)
-plt.show()
+#plt.plot(n,t)
+#plt.show()
